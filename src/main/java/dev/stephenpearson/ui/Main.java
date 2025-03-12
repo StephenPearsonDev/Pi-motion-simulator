@@ -2,6 +2,8 @@ package dev.stephenpearson.ui;
 
 import javax.swing.*;
 
+import dev.stephenpearson.simulation.SimulationEngine;
+
 public class Main extends JFrame {
 	
     public Main() {
@@ -9,7 +11,10 @@ public class Main extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(600, 400);
         setLocationRelativeTo(null);
-        add(new JPanel());
+        
+        
+        SimulationEngine simulationEngine = new SimulationEngine();
+        add(new VisualisationPanel(simulationEngine));
         
         setVisible(true);
     }
