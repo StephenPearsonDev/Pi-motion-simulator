@@ -36,6 +36,8 @@ mvn clean package
 # Run the application
 java -jar target/pi-motion-simulator-1.0.jar
 
+```
+
 ### Manual installation & running
 
 Download repository as a zip file.
