@@ -6,6 +6,8 @@ This project visualises π's irrationality using Java and OOP principles. It is 
 
 The idea is that it produces a complex, never-repeating pattern.
 
+![Demo GIF](pi.gif)
+
 ## Features to match task requirments
 
 - Visualises pi's irrationality with geometric trajectories
